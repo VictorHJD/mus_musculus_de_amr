@@ -53,43 +53,43 @@ Posterior sampling: 4 MCMC chains, 1000/1500 samples each
 
 ## Repository Structure
 
--   `data/raw` \# Raw datafiles
--   `data/processed` \# Preprocessed ARG datasets\
+-   `data/raw` \# Source data - Raw datafiles
+-   `data/processed` \# Source data - Preprocessed ARG datasets\
 -   `scripts/` \# Analysis scripts (jSDM models, data processing, microbiome and ARG description)
 -   `1_ARG_Preparing.Rmd`
     -   Aim: Preparing Variables in ARG data for jSDM
 -   `2_EnvData_Extract_Explo.Rmd`
     -   Aim: Environmental data extraction for areas with mice for jSDM
-    -   Outputs in supplements manuscript: *Supplementary S5*
+    -   Outputs in supplements manuscript: *Supplementary Fig. 13*
 -   `3_ARG_Exploring.Rmd`
     -   Aim: Exploring Variables in ARG data (general description of ARG variables)
 -   `4.1_RunjSDM_ARG_ARO_pa.Rmd`
     -   Aim: Mice ARG jSDM presence/absence (occurrence)
-    -   Outputs in main manuscript: *Figure 3 and 4*
-    -   Outputs in supplements manuscript: *Supplementary S12-S13*
+    -   Outputs in main manuscript: *Figure 2 and 3*
+    -   Outputs in supplements manuscript: *Supplementary Fig. 6-7*
 -   `4.2_RunjSDM_ARG_ARO_abd.Rmd`
     -   Aim: Mice ARG jSDM abundance
-    -   Outputs in supplements manuscript: *Supplementary S15-S17*
+    -   Outputs in supplements manuscript: *Supplementary Fig. 9-11*
 -   `4.3_RunjSDM_ARG_ARO_pa_HI.Rmd`
     -   Aim: Mice ARG jSDM presence/absence (occurrence) including host genotype
-    -   Outputs in supplements manuscript: *Supplementary S14*
+    -   Outputs in supplements manuscript: *Supplementary Fig. 8*
 -   `5_Map_figures.Rmd`
     -   Aim: Geographical localisation of mice from analysis
-    -   Outputs in main manuscript: *Figure 1*
-    -   Outputs in supplements manuscript: *Supplementary S4*
+    -   Outputs in main manuscript: *Figure 5*
+    -   Outputs in supplements manuscript: *Supplementary Fig. 12*
 -   `6_Tax_ARG_alpha_beta_div.Rmd`
     -   Aim: Analysis of alpha and beta diversity of microbiome and ARGs
-    -   Outputs in main manuscript: *Figure 2*
-    -   Outputs in supplements manuscript: *Supplementary S7, S8, S10, S11*
+    -   Outputs in main manuscript: *Figure 1*
+    -   Outputs in supplements manuscript: *Supplementary Fig. 2, 4 and 5, and Supplementary Table 1*
 -   `7_Mouse_Livestock_comparison.Rmd`
     -   Aim: Exploration of livestock resistomes and comparison of alpha and beta diversity with mice's resistomes
-    -   Outputs in main manuscript: *Figure 5*
+    -   Outputs in main manuscript: *Figure 4*
 -   `8_ARG_genetic_context.Rmd`
     -   Aim: Screening of ARGs localised in contigs annotated as plasmids
     -   Outputs in supplements manuscript: Supplementary S9
 -   `9_Compare_livestock_data.Rmd`
     -   Aim: Quantify differences in livestock density along years
-    -   Outputs in supplements manuscript: *Supplementary S18*
+    -   Outputs in supplements manuscript: *Supplementary Table 2*
 -   `source_packages.R`
     -   Aim: Source file for libraries and functions used in the project
 -   `source_themes_mg.R`
