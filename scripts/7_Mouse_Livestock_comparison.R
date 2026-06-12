@@ -675,6 +675,7 @@ distances.arg.df%>%
 
 ##Check number of genes shared between hosts
 ##ARG counts per sample
+PS.ARG.raw.all <- readRDS("data/raw/PS.ARG.raw.all.rds")
 ARG.counts<- data.frame(t(PS.ARG.raw.all@otu_table[rowSums(PS.ARG.raw.all@otu_table) >= 1,]))
 
 ARG.counts%>%
@@ -720,9 +721,6 @@ cowplot::plot_grid(
   label_fontfamily = "sans",
   label_fontface = "plain",
   label_size = 16)-> F3B
-
-ggsave(file = "Rplots.pdf", plot = F3B,
-       width = 5, height =5, dpi = 600)
 
 ##Determine the number of intersected genes with Mouse
 length(intersect(list_core$mouse, list_core$pig))
